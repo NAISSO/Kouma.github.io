@@ -20,6 +20,7 @@
         }
         </style>
         <title></title> Military forces of Mali: Reported fatalities by type of violence
+        Source: Acleddata.com
     </head>
     <body>
         <div id="map">
@@ -56,7 +57,7 @@
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
         }).fitBounds([[10.008075,-18.3060189089],[22.982925,10.0010189089]]);
-        var hash = new L.Hash(map); Source: Acleddata.com
+        var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
         var basemap0 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
